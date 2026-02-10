@@ -14,5 +14,4 @@ public class App
         int d = a + b + c;
         System.out.print("Total: " + d);
     }
-
 }
