@@ -22,5 +22,4 @@ public class digit
         System.out.print("Sum of digits: " + sum);
         sc.close();
     } 
-    
 }
