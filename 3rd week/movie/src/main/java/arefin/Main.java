@@ -7,17 +7,17 @@ public class Main
         movie m1 = new movie();
         m1.title = "Action Hero";
         m1.genre = "Action";
-        m1.leadActor = "John";
-        m1.director = "Smith";
+        m1.leadActor = "AR Rahman";
+        m1.director = "Arefin";
         m1.releaseYear = 2023;
         m1.rating = 7;
         m1.checkReview();
 
         movie m2 = new movie();
-        m2.title = "Sad Story";
+        m2.title = "Ulab Day";
         m2.genre = "Drama";
-        m2.leadActor = "Mike";
-        m2.director = "David";
+        m2.leadActor = "Tamin Iqbal";
+        m2.director = "Arefin";
         m2.releaseYear = 2022;
         m2.rating = 4;
         m2.checkReview();
