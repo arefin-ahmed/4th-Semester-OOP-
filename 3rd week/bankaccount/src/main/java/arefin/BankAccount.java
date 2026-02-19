@@ -28,5 +28,6 @@ public class BankAccount
     {
         System.out.println("Account Number: " + accountNumber);
         System.out.println("Balance: " + balance);
+        System.out.println("");
     }
 }
