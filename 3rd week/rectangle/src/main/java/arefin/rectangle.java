@@ -8,14 +8,14 @@ public class rectangle
     double area()
     {
         double area = length * width;
-        System.out.println("Area: " + area());
+        System.out.println("Area: " + area);
         return area;
     }
 
     double perimeter()
     {
         double perimeter = 2 * (length + width);
-        System.out.println("Perimeter: " + perimeter());
+        System.out.println("Perimeter: " + perimeter);
         return perimeter;
     }
 
