@@ -1,5 +1,6 @@
 package arefin;
-public class App 
+
+public class Hello 
 {
     public static void main( String[] args )
     {
