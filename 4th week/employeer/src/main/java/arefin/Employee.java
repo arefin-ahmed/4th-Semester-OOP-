@@ -18,11 +18,11 @@ public class Employee {
         this.designation = designation;
     }
 
-    void display() {
+    void display(String name) {
         System.out.println("Name: " + name);
     }
 
-    void displayFull() {
+    void display(String name, int id, double salary, String designation) {
         System.out.println("Name: " + name);
         System.out.println("ID: " + id);
         System.out.println("Salary: " + salary);
