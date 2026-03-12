@@ -7,6 +7,13 @@ public class Person {
     private String gender;
     private String address;
 
+    Person(String name, int age, String gender, String address) {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+        this.address = address;
+    }
+
     public void setName(String name) {
         this.name = name;
     }
@@ -37,5 +44,13 @@ public class Person {
 
     public String getAddress() {
         return address;
+    }
+
+    public void display() {
+        System.out.println("Name: " + getName());
+        System.out.println("Age: " + getAge());
+        System.out.println("Gender: " + getGender());
+        System.out.println("Address: " + getAddress());
+        System.out.println();
     }
 }
