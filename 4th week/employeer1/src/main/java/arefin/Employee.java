@@ -39,10 +39,10 @@ public class Employee {
     }
 
     public void display() {
-        System.out.println("Name: " + name);
-        System.out.println("ID: " + id);
-        System.out.println("Salary: " + salary);
-        System.out.println("Designation: " + designation);
+        System.out.println("Name: " + getName());
+        System.out.println("ID: " + getId());
+        System.out.println("Salary: " + getSalary());
+        System.out.println("Designation: " + getDesignation());
         System.out.println();
     }
 }
