@@ -17,11 +17,11 @@ public class Person {
         this.address = address;
     }
 
-    void Info() {
+    void Info(String name) {
         System.out.println("Name: " + name);
     }
 
-    void InfoFull() {
+    void Info(String name, int age, String gender, String address) {
             System.out.println("Name: " + name);
             System.out.println("Age: " + age);
             System.out.println("Gender: " + gender);
