@@ -8,16 +8,18 @@ public class Main {
 
         Account1[] accounts = new Account1[3];
 
-        for (int i = 0; i < 3; i++) {
-            System.out.println("Enter Account Number:");
+        for (int i = 1; i <= 3; i++) {
+            System.out.print("Enter Account Number: ");
             int accNo = sc.nextInt();
             sc.nextLine();
 
-            System.out.println("Enter Name:");
+            System.out.print("Enter Name: ");
             String name = sc.nextLine();
 
-            System.out.println("Enter Balance:");
+            System.out.print("Enter Balance: ");
             double balance = sc.nextDouble();
+
+            System.out.println("------------------");
 
             accounts[i] = new Account1(accNo, name, balance);
         }
@@ -26,5 +28,6 @@ public class Main {
         for (int i = 0; i < 3; i++) {
             accounts[i].display();
         }
+    sc.close();
     }
 }
