@@ -3,7 +3,7 @@ package arefin;
 class Motorcycle extends Vehicle {
      boolean sidecar;
     
-    // Constructor using super
+    //use super keyword
     public Motorcycle(String brand, String model, double price, String color, boolean sidecar) {
         super(brand, model, price, color);
         this.sidecar = sidecar;
