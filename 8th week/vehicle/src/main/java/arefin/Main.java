@@ -20,6 +20,6 @@ public class Main {
         for (int i = 0; i < vehicles.size(); i++) {
        Vehicle v = vehicles.get(i);
       v.display();*/
-    }
+}
 }
 
