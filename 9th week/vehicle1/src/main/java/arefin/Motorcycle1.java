@@ -1,7 +1,9 @@
-public Motorcycle extends Vehicle implements Engine {
+package arefin;
+
+public class Motorcycle1 extends Vehicle implements Engine1 {
     int cc;
 
-    Motorcycle(String model, int year, int cc) {
+    Motorcycle1(String model, int year, int cc) {
         super(model, year);
         this.cc = cc;
     }
@@ -10,10 +12,11 @@ public Motorcycle extends Vehicle implements Engine {
         System.out.println("Motorcycle engine started");
     }
 
-    void displayInfo() {
+    void display() {
         System.out.println("Motorcycle: " + getModel());
         System.out.println("Year: " + getYear());
         System.out.println("CC: " + cc);
         startEngine();
     }
 }
+

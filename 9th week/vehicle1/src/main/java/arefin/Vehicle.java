@@ -1,4 +1,6 @@
-public abstract class Vehicle {
+package arefin;
+
+abstract class Vehicle {
     private String model;
     private int year;
 
