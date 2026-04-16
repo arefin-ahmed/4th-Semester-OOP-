@@ -8,9 +8,10 @@ public class Clothing extends Product implements Discountable {
         this.size = size;
     }
 
-    public void calculateDiscount() {
+    public double calculateDiscount() {
         double discount = getPrice() * 0.20;
         System.out.println("Discount: " + discount);
+        return discount;
     }
 
     void display() {

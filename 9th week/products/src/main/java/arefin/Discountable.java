@@ -1,5 +1,5 @@
 package arefin;
 
 public interface Discountable {
-    void calculateDiscount();
+    double calculateDiscount();
 }

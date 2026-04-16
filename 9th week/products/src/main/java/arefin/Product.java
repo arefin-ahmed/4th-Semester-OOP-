@@ -17,6 +17,6 @@ public abstract class Product {
         return price;
     }
     
-    abstract void calculateDiscount();
+    abstract double calculateDiscount();
     abstract void display();
 }

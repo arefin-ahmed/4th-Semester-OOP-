@@ -8,9 +8,10 @@ public class Book extends Product implements Discountable {
         this.author = author;
     }
 
-    public void calculateDiscount() {
+    public double calculateDiscount() {
         double discount = getPrice() * 0.05;
         System.out.println("Discount: " + discount);
+        return discount;
     }
 
     void display() {

@@ -8,9 +8,10 @@ public class Electronics extends Product implements Discountable {
         this.warranty = warranty;
     }
 
-    public void calculateDiscount() {
+    public double calculateDiscount() {
         double discount = getPrice() * 0.10;
         System.out.println("Discount: " + discount);
+        return discount;
     }
 
     void display() {
