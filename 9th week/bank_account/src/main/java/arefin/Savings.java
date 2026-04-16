@@ -1,6 +1,8 @@
 package arefin;
 
 public class Savings extends Account implements Transaction {
+    String acc;
+    double bal;
 
     Savings(String acc, double bal) {
         super(acc, bal);
